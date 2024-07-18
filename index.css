@@ -470,6 +470,10 @@ footer {
     .container3 {
         margin: 0%;
         width: 100%;
+        displa: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #contact {
@@ -477,13 +481,17 @@ footer {
         width: 100%;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     
     #message {
         resize: unset;
     }
    #former {
-    width: 60%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
    }
 
    .footer-v2__upper {
